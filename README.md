@@ -7,7 +7,7 @@
 
 ## Installation
 
-Add "prettus/laravel-repository": "1.1.*" to composer.json
+Add "lfml/laravel-repository": "1.1.*" to composer.json
  
 ```json
 "prettus/laravel-validation": "1.1.*"
