@@ -1,0 +1,30 @@
+{
+    "name": "lfml/laravel-validation",
+    "description": "Laravel Validation Service",
+    "keywords": ["laravel", "validation", "service"],
+    "authors": [
+        {
+            "name": "Anderson Andrade",
+            "homepage": "http://andersonandra.de",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "http://lfml.github.io/laravel-validation",
+    "support": {
+        "issues":"https://github.com/lfml/laravel-validation/issues",
+        "wiki":"https://github.com/lfml/laravel-validation",
+        "source":"https://github.com/lfml/laravel-validation",
+        "docs": "http://lfml.github.io/laravel-validation"
+    },
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "~5.8",
+        "illuminate/validation": "~5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prettus\\Validator\\": "src/Prettus/Validator/"
+        }
+    },
+    "minimum-stability": "stable"
+}
